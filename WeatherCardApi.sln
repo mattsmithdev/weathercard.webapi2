@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherCardApi.Web", "WeatherCardApi\WeatherCardApi.Web.csproj", "{B106B039-6AE4-4B26-B2E9-02742F84EDA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherCardApi.Test", "WeatherCardApi.Test\WeatherCardApi.Test.csproj", "{B2975AEA-F637-4BF8-A1E3-C97A20C99B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherCardApi.Provider.WeatherUnderground", "WeatherCardApi.Provider.WeatherUnderground\WeatherCardApi.Provider.WeatherUnderground.csproj", "{8B04F3DD-12B9-40DA-B83B-F558847F15ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeatherCardApi.Providers", "WeatherCardApi.Providers", "{345EEC85-CFDA-4FEA-9654-4725AC276656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherCardApi.Models", "WeatherCardApi.Models\WeatherCardApi.Models.csproj", "{36DC7808-8688-4809-9BE6-E14DEC3203BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherCardApi.Provider.ForecastIo", "WeatherCardApi.Provider.ForecastIo\WeatherCardApi.Provider.ForecastIo.csproj", "{7939B89D-2016-44E4-956E-800A14253532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherCardApi.Utils", "WeatherCardApi.Utils\WeatherCardApi.Utils.csproj", "{C9909420-3443-4D50-8AAD-EF480C18DF31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherCardApi.Specs", "WeatherCardApi.Specs\WeatherCardApi.Specs.csproj", "{6B6D41E5-57DD-4371-9F7E-3049BC381013}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B106B039-6AE4-4B26-B2E9-02742F84EDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B106B039-6AE4-4B26-B2E9-02742F84EDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B106B039-6AE4-4B26-B2E9-02742F84EDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B106B039-6AE4-4B26-B2E9-02742F84EDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2975AEA-F637-4BF8-A1E3-C97A20C99B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2975AEA-F637-4BF8-A1E3-C97A20C99B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2975AEA-F637-4BF8-A1E3-C97A20C99B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2975AEA-F637-4BF8-A1E3-C97A20C99B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B04F3DD-12B9-40DA-B83B-F558847F15ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B04F3DD-12B9-40DA-B83B-F558847F15ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B04F3DD-12B9-40DA-B83B-F558847F15ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B04F3DD-12B9-40DA-B83B-F558847F15ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36DC7808-8688-4809-9BE6-E14DEC3203BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DC7808-8688-4809-9BE6-E14DEC3203BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DC7808-8688-4809-9BE6-E14DEC3203BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DC7808-8688-4809-9BE6-E14DEC3203BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7939B89D-2016-44E4-956E-800A14253532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7939B89D-2016-44E4-956E-800A14253532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7939B89D-2016-44E4-956E-800A14253532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7939B89D-2016-44E4-956E-800A14253532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9909420-3443-4D50-8AAD-EF480C18DF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9909420-3443-4D50-8AAD-EF480C18DF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9909420-3443-4D50-8AAD-EF480C18DF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9909420-3443-4D50-8AAD-EF480C18DF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6D41E5-57DD-4371-9F7E-3049BC381013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6D41E5-57DD-4371-9F7E-3049BC381013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6D41E5-57DD-4371-9F7E-3049BC381013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6D41E5-57DD-4371-9F7E-3049BC381013}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B04F3DD-12B9-40DA-B83B-F558847F15ED} = {345EEC85-CFDA-4FEA-9654-4725AC276656}
+		{7939B89D-2016-44E4-956E-800A14253532} = {345EEC85-CFDA-4FEA-9654-4725AC276656}
+	EndGlobalSection
+EndGlobal
