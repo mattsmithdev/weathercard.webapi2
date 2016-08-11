@@ -190,7 +190,7 @@ namespace WeatherCardApi.Provider.WeatherUnderground.Services {
 						dayNumber = hourlySorted.dayNumber,
 						scale = Scale,
 						temperature = hourlySorted.temperature,
-						weatherIconName = hourlySorted.weatherIconName
+						weatherIconName = "wi-wu-" + hourlySorted.weatherIconName
 					};
 					weatherDays.Add(weatherDay);
 					if (weatherDays.Count >= daysInForecast)
